@@ -1,0 +1,208 @@
+
+/* Says that you do not want anything to be inline above or below these 
+elements so this is what you would use for the box.
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+} */
+/* The HTML would look like this:
+div (clearfix)
+    div: box main
+    div: box side 
+/div  */
+
+#nav {
+    float: left;
+    width: 960px;
+    list-style: none;
+    border: 1px solid #cccccc;
+    margin-left: 20px;
+    background: #ffffff;
+    margin-bottom: 10px;
+    
+}
+
+#nav li{
+    float: left;
+}
+
+.name{
+    padding: 30px 75px;
+    border: 1px solid #cccccc;
+    margin-left: 125px;
+    background: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 30px;
+}
+
+.lineSpacer{
+    margin: 0 2px;
+}
+
+.about{
+    margin-left: 300px;
+}
+
+.about, .portfolio, .contact, .lineSpacer{
+    padding: 30px 5px;
+    color: #777777;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+a{
+    color: #777777;
+    text-decoration: none;
+}
+
+body{
+    background: url("/Users/AnilJayPatel/Desktop/Files/P/BootCamp/Week 1/HW_One/Basic-Portfolio/Assets/Images/dust_scratches.png");
+    padding-bottom: 250px;
+    margin-bottom: 150px;
+}
+
+.firstBox{
+    background : #ffffff;
+    float: left;
+    margin: 5px 20px;
+    height: 400px;
+    width: 650px;
+    border: 1px solid #cccccc;
+}
+
+.aboutMe{
+    margin: 40px;
+    border-bottom: 1px solid #cccccc;
+    border-width: 2px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 30px;
+    color:#4aaaa5;
+    padding-bottom: 15px;
+}
+
+#profilePicture{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-left: 40px;
+    margin-right: 15px;
+    border: 1px solid #cccccc
+}
+
+#aboutText{
+    margin-left: 40px;
+    margin-right: 25px;
+    color: #777777;
+    font-family:'Arial','Helvetica Neue', Helvetica,sans-serif;
+}
+
+.secondBox {
+    background: #ffffff;
+    float: left;
+    margin: 5px 20px;
+    margin-bottom: 100px;
+    height: 150px;
+    width: 270px;
+    border: 1px solid #cccccc;
+}
+
+.connectWithMe{
+    color:#4aaaa5;
+    border-bottom: 1px solid #cccccc;
+    border-width: 2px;
+    padding: 10px 10px 20px 10px;
+    margin: 15px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 20px;
+}
+
+#gitHub{
+    width: 50;
+    height: 50;
+    margin-left: 30px;
+}
+
+#stackOverflow{
+    height: 50px;
+    width: 50px;
+    margin-left: 25px;
+
+}
+#linkedIn{
+    height: 50px;
+    width: 50px;
+    margin-left: 25px;
+}
+
+.form{
+    margin-left: 40px;
+}
+
+.space{
+    margin-bottom: 15px;
+}
+.random{
+    height: 100px;
+    width: 500px;
+}
+
+#portfolioP{
+    margin-left: 40px;
+    color: #777777;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.fontFix{
+    color: #777777;
+    font-family:'Arial','Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+footer{
+    background-color: #666666;
+    height: 75px;
+    text-align: center;
+    margin-top: 155px;
+    bottom: 0;
+    left: 0;
+    width: 960px;
+    margin-left: 20px;
+    position: fixed;
+    
+}
+
+#footerTopBorder{
+    height: 5px;
+    background-color: #4aaaa5;
+}
+
+#footerText{
+    align-content: center;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+/* 
+@media screen and (max-width: 980px){
+    body{
+        background: blue
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+     body {
+         background: red;
+     }
+}
+
+@media screen and (max-width: 640px) {
+    body{
+        background: green;
+       
+    }
+} */
