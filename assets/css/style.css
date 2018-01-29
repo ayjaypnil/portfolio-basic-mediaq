@@ -14,7 +14,7 @@ div (clearfix)
 
 #nav {
     float: left;
-    width: 960px;
+    width: 100%;
     list-style: none;
     border: 1px solid #cccccc;
     margin-left: 20px;
@@ -58,8 +58,9 @@ a{
 
 body{
     background: url("/Users/AnilJayPatel/Desktop/Files/P/BootCamp/Week 1/HW_One/Basic-Portfolio/Assets/Images/dust_scratches.png");
-    padding-bottom: 250px;
-    margin-bottom: 150px;
+    /* padding-bottom: 250px;
+    margin-bottom: 150px; */
+    position: relative;
 }
 
 .firstBox{
@@ -166,7 +167,7 @@ footer{
     margin-top: 155px;
     bottom: 0;
     left: 0;
-    width: 960px;
+    width: 100%;
     margin-left: 20px;
     position: fixed;
     
@@ -185,24 +186,49 @@ footer{
     padding-top: 25px;
 }
 
-/* 
 @media screen and (max-width: 980px){
     body{
-        background: blue
+        width: 100%;
+    }
+   footer{
+        width: 980px;
     }
 
-}
+    #nav{
+        width: 100%;
+    }
+
+} 
 
 @media screen and (max-width: 768px) {
 
-     body {
-         background: red;
+     #nav {
+        
      }
+     li{
+         float:left;
+         
+     }
+     li.about{
+         margin-left: 100px;
+     }
+
+    footer {
+          width: 100%;
+          
+      }
 }
 
 @media screen and (max-width: 640px) {
     body{
-        background: green;
+        
        
     }
-} */
+
+     footer{
+         width: 100%;
+     }
+      li {
+          float: left;
+      }
+} 
